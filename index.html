@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>\
+        <style>
+            h1{
+                color: lightgray;
+                font-size: 40px;
+                width: 323px;
+                background-color: rgb(56, 55, 55);
+                padding: 16px;
+                border-radius: 10px;
+
+            }
+            body{
+                height: 100vh;
+                background: linear-gradient(to bottom, rgb(27, 27, 27), rgb(57, 56, 56))
+            }
+            .website{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .img{
+                width: 35%;
+                height: fit-content;
+                padding: 5px;
+            }
+            .rowss{
+                display: flex;
+                flex-direction: row;
+                align-self: flex-start;
+                background-color: antiquewhite;
+                height: 150px;
+                width: 27%;
+                align-items: center;
+                border: 10px;
+                border-radius: 20px;
+                margin-left: 5%;
+            }
+            h2{
+                font-size: 160%;
+                font-family: sans-serif;
+            }
+            .body-container{
+                display: flex;
+            }
+            @media (max-width: 740px) and (min-width: 590px) {
+                .body-container{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                .rowss{
+                    align-self: center;
+                    width: 70%;
+                    justify-content: center;
+                }
+                .title{
+                    width: ;
+                    display: flex;
+                    justify-content: center;
+                }
+                h1{
+                color: lightgray;
+                font-size: 30px;
+                width: 200px;
+                background-color: rgb(56, 55, 55);
+                padding: 10px;
+                border-radius: 10px;
+
+                }
+                .img{
+                    width: 30%;
+                }
+            }
+            @media (max-width: 590px) and (min-width: 400px) {
+                .body-container{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                .rowss{
+                    align-self: center;
+                    width: 70%;
+                    justify-content: center;
+                }
+                .title{
+                    width: ;
+                    display: flex;
+                    justify-content: center;
+                }
+                h1{
+                color: lightgray;
+                font-size: 30px;
+                width: 200px;
+                background-color: rgb(56, 55, 55);
+                padding: 10px;
+                border-radius: 10px;
+
+                }
+                .img{
+                    width: 38%;
+                }
+            }
+            @media (max-width: 400px) {
+                .body-container{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                .rowss{
+                    align-self: center;
+                    width: 90%;
+                    justify-content: center;
+                }
+                .title{
+                    width: ;
+                    display: flex;
+                    justify-content: center;
+                }
+                h1{
+                color: lightgray;
+                font-size: 30px;
+                width: 200px;
+                background-color: rgb(56, 55, 55);
+                padding: 10px;
+                border-radius: 10px;
+
+                }
+                .img{
+                    width: 40%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="website">
+            <div style="text-align: center;" class="title">
+                <h1 style="font-family: sans-serif;">Hello, I am <br /><span style="font-family: serif; color: brown;">Omar El-Dardery</span>!</h1>
+            </div>
+            <div class="body-container">
+
+                    <div class="rowss">
+                        <img src="./psychology logo.png" class="img">
+                        <div style="height: 150px; border-left: 2px solid black;"></div>
+                        <div style="text-align: center; width: 100%;">
+                            <h2>Interests</h2>
+                        </div>
+                    </div>
+                <div class="rowss">
+                    <img src="./electric guitar.png" class="img" style="padding: 5px;">
+                    <div style="height: 150px; border-left: 2px solid black;"></div>
+                    <div style="text-align: center; width: 100%;">
+                        <h2>Music Taste</h2>
+                    </div>
+                </div>
+                <div class="rowss">
+                    <img src="./hobbies.png" class="img">
+                    <div style="height: 150px; border-left: 2px solid black;"></div>
+                    <div style="text-align: center; width: 100%;">
+                        <h2>Hobbies</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
